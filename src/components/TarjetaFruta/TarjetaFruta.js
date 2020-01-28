@@ -26,6 +26,7 @@ class TarjetaFruta extends React.Component {
 
     return (
       <div className={clases}>
+        <h1>Frutas</h1>
         <h3>{ this.props.name }</h3>
         <div>Cantidad: { this.state.cantidad }</div>
         <button
